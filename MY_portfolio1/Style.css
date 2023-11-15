@@ -1,0 +1,1135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   height: 100vh;
+    width: 100vw;
+    display: flex;
+    background:#222;
+    color: white;
+}
+.leftcontainer{
+    width:25%;
+    height: 100%;  
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+/* airpods-pro-2.jpg */
+
+.mydata{
+   width:95%;
+    height: 100%;
+    display: flex; visibility: visible;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ background: linear-gradient(0deg,rgba(67, 64, 64, 0.985),rgb(29, 28, 28),rgb(39, 39, 39),rgb(126, 124, 124),rgba(41, 40, 40, 0.985));
+ /* background: #ebeef1; */
+ box-shadow:2px 2px 2px 10pxrgba(255,255,255,1);
+}
+
+.rightcontainer{
+    color: white;
+  width: 75%;
+    height: 100%;
+
+   
+} 
+.homepart{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  flex-direction: column-reverse;
+}
+
+
+/* 
+.homeimg{
+  
+    width:250px;
+height:350px;
+border-radius: 10px;
+box-shadow:0px 1px 2px 0px rgba(0,255,255,0.7),
+1px 2px 4px 0px rgba(0,255,255,0.7),
+2px 4px 8px 0px rgba(0,255,255,0.7),
+2px 4px 16px 0px rgba(0,255,255,0.7)   
+}
+.hming{
+    width: 100%;
+height:100%;
+
+   background-color:#222;
+    background:url('Polish_20230404_193228313__2_-removebg-preview.png');
+    background-size: cover;
+    border-radius: 10px;
+    opacity:0.9;
+}  */
+.lefthome{
+    display: flex;
+    justify-content: center;
+  position: relative;
+  margin-top: 0px;
+    width:100%;align-items: center;position: relative;
+    height:auto;
+}
+.lotifile{
+position: relative;
+width: 500px;
+height: 450px;
+left:-20px;
+}
+
+
+
+
+
+
+
+
+
+#downlodebtn{
+    background: linear-gradient(11deg,silver,#0000006f,rgba(192, 192, 192, 0.722),rgba(192, 192, 192, 0.39));
+display: flex;
+align-items: center;
+justify-content: center;
+height: 30px;
+width:120px;
+margin-top: 20px;position: absolute;
+border-radius: 20px;
+bottom:-30px;
+}
+#aboutmeicon{
+position: relative;
+left: 4px;
+color:white;
+}
+.dataaboutme{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;position: relative;
+flex-direction: column;
+height: 200px;
+
+}#mypara1{
+    width: 78%;
+    font-size: 17.6px;
+    line-height:1.3;
+
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     */
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dataaboutme h3{
+    position: relative;
+    top:-10px;
+    
+}
+.dataaboutme h1{
+    position: relative;
+    top:-10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+    color:gold;
+    font-weight: 200px;
+}
+#info span{
+    color: white;
+}
+.logo{
+height: 130px;
+background-color: black;
+width: 130px;
+border-radius:50%;
+position: relative;
+overflow: hidden;    /* inset: 0px; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo::before{
+    content: "";
+    position: absolute;
+    height:50px;
+    width: 230px;
+background:linear-gradient(-90deg,red,red,cyan,cyan);
+left:-25%;
+top: 40%;
+rotate:-45deg;filter: blur(8px);
+animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+    transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+        }
+    }
+
+    
+    
+#dp{
+    height: 95%;z-index: 2;
+    width: 95%;inset: 3.1px;
+    /* top:1.7px;
+    left: 2px;inset: 2px; */
+ border-radius:50%;
+   
+}
+#myname{
+    font-size: 27px;
+margin: 10px;
+}
+
+#profetionname{
+    font-size: 14px;
+margin: 0px 0 10px 0;
+}
+.list{
+    list-style: none;
+
+    /* background: linear-gradient(11deg,silver,#0000006f,rgba(192, 192, 192, 0.722),rgba(192, 192, 192, 0.39)); */
+display: flex;
+align-items: center;
+justify-content: center;
+
+height: 30px;
+width:150px;
+margin: 20px;
+border-radius: 20px;
+cursor: pointer;
+
+transition:transform 0.3s,list 0.2s;
+ box-shadow:0px 1px 2px 0px rgba(0,255,255,0.7),
+ 1px 2px 2px 0px rgba(0,255,255,0.7),
+ -2px 2px 2px 0px rgba(0,255,255,0.7),
+ 0px 1px 2px 0px rgba(0,255,255,0.7)   
+}
+ul li a{
+    text-decoration: none;
+    color:#ebeef1;
+    font-weight: 100px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+li:hover{
+
+transform: translateY(-2px);
+
+}
+#downlodebtn:hover{
+    cursor: pointer;
+    background:linear-gradient(45deg,red,rgb(8, 8, 219));
+}
+
+.myparagraph{
+    line-height:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+/* dark theam  icon */
+/* 
+#darkicon{
+    font-size: 20px;
+    position: absolute;
+    right:10px;
+    top: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+/* 
+contact page css part is written here */
+.contactform{
+    color: white;
+    width:100%;
+      height: 100%;
+display: flex; 
+justify-content: center;
+align-items: center;
+
+}
+.leftcontact{
+    width: 50%;
+    height:auto;
+    color:white;
+margin-left: 100px;
+    flex-direction: column;
+}
+.leftcontact h1{
+    color: white;
+    font-size: 35px;
+}
+.teligrm{
+height: auto;
+font-size: 20px;
+margin-top:30px;
+cursor: pointer;
+color: gray;transition:transform 0.5s
+}
+.git{
+    height: auto;
+    font-size: 20px;
+    margin-top:20px;
+    cursor: pointer;
+    color: gray;transition:transform 0.5s
+    }
+    .phoneno{
+        height: auto;
+        font-size: 20px;
+        margin-top:20px;
+        margin-bottom:20px;
+        cursor: pointer;
+        color: gray;transition:transform 0.5s
+        }
+.git:hover{
+    color: white;
+transform: translateY(-2px);
+}
+.teligrm:hover{
+  
+transform: translateY(-2px);color: white;
+}
+.phoneno:hover{
+    
+transform: translateY(-2px); color: white;
+}
+
+           .icon{
+            display: flex;
+            margin-left:-10px;
+           }
+           .website{
+            margin-left:10px;
+           color: white;
+           text-decoration: none;
+           }
+        .icon li{
+         list-style: none;
+            margin:10px;
+            height: 30px;
+            width: 30px;
+            cursor: pointer;
+            background: none;
+        }
+        .icon li #fb:hover{
+            transform: scale(1.1);  color: white;
+        }
+        
+        .icon li #linkedin:hover{
+            transform: scale(1.1);color: white; 
+         }
+         
+        .icon li #twiter:hover{
+            transform: scale(1.1);color: white; 
+         }
+        .icon li #insta:hover{
+            transform: scale(1.1);color: white;
+          
+         }
+
+        #fb,#insta,#twiter,#linkedin{
+        font-size: 30px;
+        color:gray;
+     transition:transform 0.5s;
+   
+}
+
+        .cvdownlod{
+            margin-top:25px;
+            height: 30px;
+            width: 120px;
+            color:white;
+            font-weight: 20px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        background: linear-gradient(0deg,rgb(235, 7, 7),crimson);
+    
+        transition:transform 0.5s;
+        
+    }
+        .cvdownlod:hover{
+            transform: scale(1.1);
+         }
+.rightcontact{
+    width: 50%;
+    height:auto;
+    color:white;
+}
+.entername,.mail{
+    height: 30px;
+    width: 85%;
+    margin-top:20px;
+    outline: none;
+    border: none;    color:white;
+    background:rgba(43, 34, 34, 0.479);
+    box-shadow: inset 0.0001px 0.0001px 0.9px gray,inset -0.0001px -0.0001px 0.9px black;
+}
+.msg{
+    height: 180px;
+    width: 85%;
+    margin-top:20px;
+    outline: none;
+    border: none;
+    color:white;
+    box-shadow: inset 0.0001px 0.0001px 0.9px gray,inset -0.0001px -0.0001px 0.9px black;
+    background:rgba(43, 34, 34, 0.479);
+}
+.submitbtn{
+    margin-top:25px;
+    height: 30px;
+    width: 120px;
+    color:white;
+    font-weight: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;    
+    transition:transform 0.5s;
+background: linear-gradient(0deg,rgb(235, 7, 7),crimson);
+}
+.submitbtn:hover{
+    transform: scale(1.1);
+ }
+
+
+#apptitel{
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    position:relative;bottom: 10px;
+}
+
+
+
+
+/* service css part */
+.servicecontainer{
+    height: 100%;
+    width: 100%;
+display: grid;
+place-items: center;
+}
+.servicepart{
+align-items: center;
+height: 100%;
+width: 100%;
+  
+}
+#myservicetext{
+    font-size: 30px;
+margin-left: 20px ;   font-family:'Segoe UI',
+ Tahoma, Geneva, Verdana, sans-serif;
+}
+.serviceitem{
+    display: flex;
+    justify-content: center;
+}
+.myservice{
+    height:200px;
+    width: 320px;
+cursor: pointer;
+    margin: 20px;
+
+    padding:5px;
+    background-color: rgb(29, 28, 28);
+    box-shadow:0px 1px 2px 0px rgba(0,255,255,0.7),
+1px 2px 4px 0px rgba(0,255,255,0.7),
+2px 2px 8px 0px rgba(0,255,255,0.7),
+2px 2px 16px 0px rgba(0,255,255,0.7) ;  
+    border-radius: 5px;
+transition: transform 0.5s;
+}
+.myservice:hover{
+    transform: scale(1.1);
+    background: #ff004f;
+}
+.myservice i{
+    margin: 0px 0 5px 0;
+  font-size:20px;
+}
+
+#videologo{
+    height:25px;
+margin: 0px;
+}
+.myservice h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin:0px 0 10px 0;
+}
+.learnmore{
+    position: relative;
+    top: 10px;
+}
+.myservice p{
+    font-size:13px;
+}
+
+
+
+/* Education part cass */
+.containerhome{
+    min-height: 100vh;
+     width: 100vw;
+     display: flex;
+     background:#222;
+     color: white;
+ }
+.leftcontainerwork{
+    width:25%;
+    height: 100%;  
+  position: fixed;z-index: 5;
+  
+
+}
+.rightcontainerwork{
+    background-color: #222;
+        color: white;
+      width:75%;
+        height:auto;
+        margin-left: auto;
+        padding:50px  0 50px 0;
+    
+}
+.workcontainer{
+min-height: 100%;
+width: 100%;
+display: grid;
+place-items: center; 
+}
+.workpart{
+align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;width: 100%;
+}
+
+/* 
+#seemorework{
+margin-left:42.1%;
+    height: 30px;
+    width: 110px;
+    color:white;
+    background: transparent;
+    font-weight: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;    
+    transition:transform 0.5s;
+border:0.1px solid red;
+} */
+/* #seemorework:hover{
+    transform: scale(1.1);
+    background: linear-gradient(0deg,rgb(235, 7, 7),crimson);
+ }
+
+  */
+
+#myworktext{
+    font-size: 30px;
+margin-left: 38px ;   font-family:'Segoe UI',
+ Tahoma, Geneva, Verdana, sans-serif;
+}
+.workitem{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.mywork{
+    height:250px;
+    width: 180px;
+cursor: pointer;
+    margin: 29px;
+flex-direction: column;
+    border-radius:10px;
+display:flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-radius:10px;
+position: relative;
+overflow: hidden;
+}
+#turistimg{
+    width:94%;
+    height:94%;
+transition: transform 0.5s;
+   border-radius:10px;
+  
+}
+.turistappinfo{
+    border-radius:10px;
+width: 100%;
+    height:0%;
+    overflow: hidden;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+position: absolute;
+bottom: -5px;
+    padding: 0  30px;
+    text-align: center;
+    transition: 0.5s; 
+
+}
+
+.turistappinfo p{
+    font-size:12px;
+}
+.turistappinfo  a i{
+    color: white;
+    height:40px;
+   width:40px;
+    background: gray;
+ display: grid;
+ place-items: center;
+border-radius: 50%;
+    margin-top: 15px;
+}
+.mywork:hover img{
+    transform: scale(1.1);
+}
+.mywork:hover .turistappinfo{
+  height: 104%;
+  width: 104%; 
+}
+
+/* codingclass */
+
+#studyimg{
+    width:94%;
+    height:94%;
+    transition: transform 0.5s;
+   border-radius:10px;
+   background: cover;
+  
+}
+.studyappinfo{
+    border-radius:10px;
+width: 100%;
+    height:0%;
+    overflow: hidden;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+position: absolute;
+bottom: -5px;
+    padding: 0  30px;
+    text-align: center;
+    transition: 0.5s; 
+}
+
+.studyappinfo  a i{
+    color: white;
+    height:40px;
+   width:40px;
+    background: gray;
+ display: grid;
+ place-items: center;
+border-radius: 50%;
+    margin-top: 15px;
+}
+
+.studyappinfo p{
+font-size:12px;
+}
+.mywork:hover img{
+transform: scale(1.1);
+}
+.mywork:hover .studyappinfo{
+  height: 104%;
+  width: 104.5%; 
+}
+
+/* love calculator */
+
+#calcuimg{
+    width:94%;
+    height:94%;
+    transition: transform 0.5s;
+   border-radius:10px;
+  
+}
+.calcuappinfo{
+    border-radius:10px;
+width: 100%;
+    height:0%;
+    overflow: hidden;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+position: absolute;
+bottom: -5px;
+    padding: 0  30px;
+    text-align: center;
+    transition: 0.5s; 
+}
+
+.calcuappinfo  a i{
+    color: white;
+    height:40px;
+   width:40px;
+    background: gray;
+ display: grid;
+ place-items: center;
+border-radius: 50%;
+    margin-top: 15px;
+}
+.calcuappinfo p{
+    font-size:12px;
+}
+.mywork:hover img{
+    transform: scale(1.1);
+}
+.mywork:hover .calcuappinfo{
+  height: 104%;
+  width: 104%; 
+}
+
+/* about page css is written is here */
+.aboutcontainer{
+    display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 100%;
+
+}
+
+.aboutpage{
+    width: 98%;
+    position: relative;
+    top: -20px;
+
+}
+
+
+.aboutpage p{
+    width: 85%;
+    font-size: 17.6px;
+    line-height:1.3;
+    margin-top: 10px;
+    margin-bottom: 20px; padding-left: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.aboutpage h1{
+font-family:Verdana, Geneva, Tahoma, sans-serif;   padding-left: 20px;
+
+}
+.header ul{
+    display: flex;cursor: pointer;background: none;
+
+}
+.header ul li:hover{
+background: none;
+}
+header ul li{
+    list-style: none;
+    font-size: 24px;
+margin:0 20px   0 20px;
+}
+#datask{
+    position: absolute;
+}
+#dataexp,#dataed{
+    visibility: hidden;
+    position: absolute;
+}
+.dist{
+    color: red;font-size: 20px;
+
+}
+h4{
+margin-bottom:20px ;
+}
+.aboutdata{
+height: auto;
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+}
+#li1{
+    border-bottom: 2px solid cyan;
+}
+
+
+
+
+
+
+
+/* transfore into mobile size ie; Making into responsive  */
+#humberger,#humbergera,#humbergerc,#humbergere,#humbergers{
+    width: 60px;
+    height: 20px;
+    position:absolute;
+    left:10px;
+    top: 10px;
+    visibility: hidden;
+    cursor: pointer;
+}
+#xmark,#xmarka,#xmarkc,#xmarke,#xmarks{
+transition: 1s;
+        width: 60px;
+        height: 20px;    cursor: pointer;
+        position:absolute;
+        right:10px;
+        top: 10px;
+        visibility: hidden;
+  
+}
+@media only screen and (max-width:760px){
+
+    
+.container{
+width: 100vw;
+ margin: 0;background: black;
+ height:100vh;
+}
+#humberger,#humbergera,#humbergerc,#humbergere,#humbergers{
+        width: 60px;
+        height: 30px;
+        position: absolute;
+        visibility: visible;z-index:1;
+    }
+
+    .leftcontainer{       
+        height:100%;
+        width:0px;
+        background: linear-gradient(0deg,rgba(67, 64, 64, 0.985),rgb(29, 28, 28),rgb(39, 39, 39),rgb(126, 124, 124),rgba(41, 40, 40, 0.985));
+        /* background: #ebeef1; */
+        box-shadow:2px 2px 2px 10pxrgba(255,255,255,1);
+
+ position: relative;
+    }
+
+    .mydata{
+        z-index:2; 
+  /* visibility:hidden;*/
+  transition:0.7s;overflow: hidden;
+  position: absolute;
+  height: 100%;
+position:fixed;
+    }
+    
+#xmark,#xmarka,#xmarkc,#xmarke,#xmarks{
+    width: 60px;
+    height: 60px;
+    position:absolute;
+    z-index: 2;
+    right:-35px;
+    top: 10px;  visibility: visible;
+}
+.rightcontainer{
+    color: white;
+    margin: 0;
+    height: 100%;
+    z-index: 0;
+    width: 100%;    
+    transition: 1s;overflow-x: hidden;
+} 
+.dataaboutme{
+
+    width: 100%;
+    line-height:1.6;
+    font-size: 14px;
+    padding: 15px;
+    margin-top:20px;height: auto;
+}
+/* 
+.homeimg{
+  margin-top: 16px;
+    width:143px;
+height:143px;
+border-radius: 10px;
+box-shadow:0px 1px 2px 0px rgba(0,255,255,0.7),
+1px 2px 4px 0px rgba(0,255,255,0.7),
+2px 4px 8px 0px rgba(0,255,255,0.7),
+2px 4px 16px 0px rgba(0,255,255,0.7);
+border-radius: 50%;
+position: absolute;
+top:10px;
+
+}
+.hming{
+    width: 100%;
+height:100%;
+
+   background-color:#222;
+    background:url('Polish_20230404_193228313__2_-removebg-preview.png');
+    background-size: cover;
+    border-radius: 10px;
+    opacity:0.9;
+position: relative;
+    border-radius: 50%;
+  
+
+
+}  */
+
+.lotifile{
+    height:auto;
+    width: 80%;position: absolute;
+    top:0px;left: 40px;
+}
+
+.lefthome{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    width:100%;
+   margin: 0px;
+    position: relative;
+    height:300px;
+}
+.homepart{
+    padding-top: 30px;
+flex-direction: column-reverse;
+height: auto;
+}
+.dataaboutme p{
+width:99%;
+}
+
+
+
+
+
+#abouttext{
+    padding-left:5px;
+    padding-right:15px;
+    position: relative;
+    top: 100px;
+}
+.contactform{
+    display: flex;
+top:-20%;
+  position: relative;
+    flex-direction: column;
+   height:130%;
+    width: 100%;
+background-color:black;
+  
+}
+.rightcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;position:relative;
+height: auto;
+   
+}
+
+.leftcontact{
+margin-left:0px;
+display: flex;
+position:relative;
+top:10px;
+align-items: center;
+flex-direction: column;
+width: 100%;
+ 
+}
+.cvdownlod{
+    position: relative;
+    bottom:0px;
+  margin:20px;
+    width:100px;
+}
+.submitbtn{
+    position: absolute;
+
+   bottom:-45px;
+    width:100px;
+
+}
+
+.serviceitem{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   position: relative;
+   top: -29px;
+}
+.myservice{
+    width: 80%;
+    min-height:200px;
+
+    
+}
+#mypara1{
+    width: 99%;
+    font-size: 16px;
+    line-height:150%;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+#myservicetext{ display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -29px;
+}
+
+#scontainer{
+position: relative;
+    background-color: black;
+}
+ .servicecontainer, .aboutcontainer{
+    height:auto;
+    padding: 40px 0px 20px 0px;
+transition: 1s;
+    background-color: black; overflow-y: scroll;
+   
+}
+.workcontainer {
+    height:100%;
+    width: 100%;
+}
+
+.containerhome{
+    height:100%;
+     width: 100vw;
+     display: flex;
+     background:#222;
+     color: white;
+ }
+.leftcontainerwork{  
+        height:100%;
+        width:0px;
+        background: linear-gradient(0deg,rgba(67, 64, 64, 0.985),rgb(29, 28, 28),rgb(39, 39, 39),rgb(126, 124, 124),rgba(41, 40, 40, 0.985));
+        /* background: #ebeef1; */
+     
+
+ position: fixed;
+    }
+.rightcontainerwork{
+    background-color: rgb(41, 41, 41);
+        color: white;
+      width:100%;
+        height:auto;
+        margin-left: auto;
+        padding:50px  0 50px 0;
+    
+}
+.rightcontainer::-webkit-scrollbar{
+display: none;
+
+}
+.workitem{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+
+}
+#seemorework{
+    position: relative;
+    left:-33px;
+}
+.mywork{
+    width: 70%;
+height:300px;margin-top:0px;
+box-shadow:2px 4px 2px black,-2px -2px 3px white;
+}
+
+#myworktext{
+  
+    height:50px;
+   text-align: center;
+position: relative;
+left:-30px;
+margin-bottom: 10px;
+}
+
+/* about page */
+
+.aboutpage{
+    width: 100%;
+padding: 20px;  
+}
+.aboutpage h1{
+margin-bottom: 15px;    padding-left:1px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.aboutpage p{
+    width: 100%;
+    padding-left:1px;
+    font-size: 16px;
+    line-height:150%;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.header{
+height: auto;
+overflow-x: hidden;
+width: 100%;
+-webkit-overflow-scrolling:none; 
+margin-left: 0px;
+
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 0px;
+    margin-right:16px;
+    font-size:99%;
+
+}
+.aboutdata{
+    height: 300px;
+        padding:20px;padding-left:0px;
+    }
+.dist{
+font-size: 17px;
+}
+
+
+
+
+
+
+
+
+}
